@@ -41,7 +41,7 @@ public class LinkedList {
         System.out.println("Length: " + length);
     }
 
-    public void add(int value) {
+    public void append(int value) {
         Node newNode = new Node(value);
         if (length == 0){
             head = newNode;
